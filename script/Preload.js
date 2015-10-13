@@ -6,8 +6,8 @@ var loadState = function(game){
 
       preload: function(){
           console.log(game.state.getCurrentState());
-
-          this.load.image('platform','assets/platform.png');
+        
+          // load assets here
       },
 
       create: function(){

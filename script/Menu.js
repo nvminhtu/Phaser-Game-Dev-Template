@@ -6,10 +6,8 @@ var menuState = function(game){
         
         create: function(){
             console.log(game.state.getCurrentState());
-              
-              // testing OOP - remove this      
-            this.myplatform = new platform(game);
-            this.myplatform.create();
+            
+            this.state.start('Play');
         }
         
     }

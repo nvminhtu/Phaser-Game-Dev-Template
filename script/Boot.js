@@ -13,7 +13,7 @@ var bootState = function(game){
             if (this.game.device.desktop){
 
                 this.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-              //  this.scale.setMinMax(90,250,330,550); // (minwidth,minheight,maxwidth,maxheight)
+                this.scale.setMinMax(90,250,330,550); // (minwidth,minheight,maxwidth,maxheight)
                 this.scale.pageAlignHorizontally = true;
                 this.scale.pageAlignVertically = true;
                 this.scale.updateLayout(true);
