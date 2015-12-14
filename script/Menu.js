@@ -1,13 +1,13 @@
-var menuState = function(game){
-    
+MyGame.menuState = function(game){
+  this.game = game;
 };
 
-    menuState.prototype = {
-        
+    MyGame.menuState.prototype = {
+
         create: function(){
             console.log(game.state.getCurrentState());
-            
+
             this.state.start('Play');
         }
-        
+
     }

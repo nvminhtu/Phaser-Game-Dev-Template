@@ -1,12 +1,13 @@
-var loadState = function(game){
-
+MyGame.loadState = function (game) {
+  // body...
+  this.game = game;
 };
 
-  loadState.prototype = {
+  MyGame.loadState.prototype = {
 
       preload: function(){
           console.log(game.state.getCurrentState());
-        
+
           // load assets here
       },
 

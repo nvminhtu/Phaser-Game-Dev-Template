@@ -1,12 +1,12 @@
-var creditState = function(game){
-    
+MyGame.creditState = function(game){
+  this.game = game;
 };
 
-    creditState.prototype = {
-        
+    MyGame.creditState.prototype = {
+
         create: function(){
             console.log(game.state.getCurrentState());
-            
+
         }
-        
+
     }
